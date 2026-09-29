@@ -12,10 +12,4 @@ class Solution:
     def dfs(r: int, c: int, balance: int) -> bool:
       # Update balance based on current cell
       if grid[r][c] == '(':
-        balance += 1
-      else:
-        balance -= 1
-
-      # Prune if closing brackets exceed opening brackets
-      if balance < 0:
      
