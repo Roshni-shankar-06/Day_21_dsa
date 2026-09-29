@@ -20,6 +20,4 @@ class Solution:
         s = helper(num // 100) + ' Hundred ' + helper(num % 100)
       elif num < 1000000:
         s = helper(num // 1000) + ' Thousand ' + helper(num % 1000)
-      elif num < 1000000000:
-        s = helper(num // 1000000) + ' Million ' + helper(num % 1000000)
-    
+     
