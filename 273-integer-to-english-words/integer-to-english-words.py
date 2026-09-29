@@ -11,7 +11,4 @@ class Solution:
     tens = ['',      'Ten',   'Twenty',  'Thirty', 'Forty',
             'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety']
 
-    def helper(num: int) -> str:
-      if num < 20:
-        s = belowTwenty[num]
-  
+ 
