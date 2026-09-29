@@ -17,7 +17,4 @@ class Solution:
       elif num < 100:
         s = tens[num // 10] + ' ' + belowTwenty[num % 10]
       elif num < 1000:
-        s = helper(num // 100) + ' Hundred ' + helper(num % 100)
-      elif num < 1000000:
-        s = helper(num // 1000) + ' Thousand ' + helper(num % 1000)
-     
+      
