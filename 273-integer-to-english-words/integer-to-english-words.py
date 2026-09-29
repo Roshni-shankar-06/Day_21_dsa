@@ -3,8 +3,5 @@ class Solution:
     if num == 0:
       return 'Zero'
 
-    belowTwenty = ['',        'One',       'Two',      'Three',
-                   'Four',    'Five',      'Six',      'Seven',
-                   'Eight',   'Nine',      'Ten',      'Eleven',
-                   'Twelve',  'Thirteen',  'Fourteen', 'Fifteen',
+    ',  'Thirteen',  'Fourteen', 'Fifteen',
     
