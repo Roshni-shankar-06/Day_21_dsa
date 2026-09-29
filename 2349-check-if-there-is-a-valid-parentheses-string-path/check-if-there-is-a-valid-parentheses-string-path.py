@@ -25,10 +25,4 @@ class Solution:
         return balance == 0
 
       if (r, c, balance) in memo:
-        return memo[(r, c, balance)]
-
-      # Move down or right
-      res = False
-      if r + 1 < m:
-        res = res or dfs(r + 1, c, balance)
-     
+      
