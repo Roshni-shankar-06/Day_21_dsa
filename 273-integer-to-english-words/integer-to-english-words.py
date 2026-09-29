@@ -14,7 +14,4 @@ class Solution:
     def helper(num: int) -> str:
       if num < 20:
         s = belowTwenty[num]
-      elif num < 100:
-        s = tens[num // 10] + ' ' + belowTwenty[num % 10]
-      elif num < 1000:
-      
+  
