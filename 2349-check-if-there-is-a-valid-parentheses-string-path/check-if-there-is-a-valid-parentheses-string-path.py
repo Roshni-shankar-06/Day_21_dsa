@@ -31,10 +31,4 @@ class Solution:
       res = False
       if r + 1 < m:
         res = res or dfs(r + 1, c, balance)
-      if c + 1 < n:
-        res = res or dfs(r, c + 1, balance)
-
-      memo[(r, c, balance)] = res
-      return res
-
-    return dfs(0, 0, 0)
+     
