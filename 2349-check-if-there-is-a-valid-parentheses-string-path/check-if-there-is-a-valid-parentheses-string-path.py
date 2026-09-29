@@ -18,11 +18,4 @@ class Solution:
 
       # Prune if closing brackets exceed opening brackets
       if balance < 0:
-        return False
-
-      # Base case: bottom-right corner
-      if r == m - 1 and c == n - 1:
-        return balance == 0
-
-      if (r, c, balance) in memo:
-      
+     
