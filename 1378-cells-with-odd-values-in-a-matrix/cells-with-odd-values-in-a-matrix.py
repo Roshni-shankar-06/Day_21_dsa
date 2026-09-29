@@ -5,9 +5,5 @@ class Solution:
         
         for r, c in indices:
             row_count[r] += 1
-            col_count[c] += 1
-            
-        odd_rows = sum(1 for r in row_count if r % 2 != 0)
-        odd_cols = sum(1 for c in col_count if c % 2 != 0)
-        
+     
         
