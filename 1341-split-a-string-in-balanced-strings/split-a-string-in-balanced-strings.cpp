@@ -7,9 +7,4 @@ class Solution {
     for (const char c : s) {
       count += c == 'L' ? 1 : -1;
       if (count == 0)
-        ++ans;
-    }
-
-    return ans;
-  }
-};
+     
